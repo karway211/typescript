@@ -97,7 +97,7 @@ class User {
 
 }
 
-// Factory Decorator
+// Factory Decorator - это ф-ция, кот. возвращает выражение и кот. будет вызвана декоратором во время исполнения программы
 function factory(value: any) {        // Factory
   return function (target: any) {   // Decorator
       console.log(target);          // Decorator logic
